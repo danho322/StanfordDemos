@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUSY fileid="6.P.50.04" template="3-2">
+  <property name="1-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="I don't like Italian food."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="1-message">
+    <mtext version="2">
+      <Par>
+        <Chunk family="14,EpgySansSerif,Plain" text="This is an opinion, not the lead sentence of a narrative paragraph. The lead sentence should tell the reader the topic of the paragraph. It should also include the main idea, or give a hint about what it is."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="2-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="Parmesan cheese and Romano cheese are two things that Italians sprinkle on top of their pasta."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="2-message">
+    <mtext version="2">
+      <Par>
+        <Chunk family="14,EpgySansSerif,Plain" text="This sentence gives information, but it does not begin a story. The lead sentence should tell the reader the topic of the paragraph. It should also include the main idea, or give a hint about what it is."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="3-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="&quot;Ciao! Ciao! Welcome!&quot; exclaimed the owner of the restaurant as we walked in for what was to become a mortifying experience."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="answer" type="LOLS">
+    <datum value="3"/>
+  </property>
+  <property name="4-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="I wanted Parmesan cheese for my spaghetti because at home, I never eat pasta without it."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="4-message">
+    <mtext version="2">
+      <Par>
+        <Chunk family="14,EpgySansSerif,Plain" text="This could be a detail, but it is not a good lead sentence. The lead sentence should tell the reader the topic of the paragraph. It should also include the main idea, or give a hint about what it is."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="count" value="4"/>
+  <property name="question">
+    <mtext version="2" base1="17">
+      <Par LineSpacing="1.0" lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="          "/>
+        <Chunk foreground="FFB8CFE5" family="18,EpgySerif,Plain" text="_"/>
+        <Chunk family="18,EpgySerif,Plain" text=" My family had chosen to dine at a cozy restaurant where the locals ate. Since I could not read the Italian menu, I randomly chose a pasta dish. My dish arrived with spaghetti, mussels, and tomato sauce. It looked delicious, but it was missing the Parmesan cheese. I asked the waiter to bring some. The waiter was obviously offended by my request. &quot;You have seafood in your pasta! You do not eat seafood with cheese! Never!&quot; he exclaimed. Then, he briskly walked away. Finally, the chef came to our table. He explained that, if I wanted, I could have cheese but Italians think it ruins this kind of pasta. The next time we went out to dinner, you can bet that I thought twice before asking for cheese!"/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="instruction">
+    <mtext version="2">
+      <Par>
+        <Chunk text="Add the best "/>
+        <Chunk foreground="FFFF0000" bold="true" text="lead sentence"/>
+        <Chunk text=" into the blank."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="defaultMessage"/>
+</AUSY>

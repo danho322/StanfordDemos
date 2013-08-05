@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUSY fileid="4.A.23.01" template="experiment">
+  <property name="answer" value=""/>
+  <property name="sentence">Emma's mom, Anne, volunteers to help sick dogs at the animal shelter.</property>
+  <property name="question">
+    <mtext version="2">
+      <Par>
+        <Chunk text="What does Emma's mom do at the shelter? Use "/>
+        <Chunk foreground="FFFF0000" text="one or two "/>
+        <Chunk bold="true" text="common nouns "/>
+        <Chunk text="in your answer. Do "/>
+        <Chunk foreground="FFFF0000" text="not "/>
+        <Chunk text="use a "/>
+        <Chunk bold="true" text="proper noun"/>
+        <Chunk text="."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="wordlistnumber" value="4A2301"/>
+  <property name="filename" value="4A2301"/>
+  <property name="parser" value="4A23014A2301"/>
+  <property name="parserexercise" value="4.A.23.01"/>
+  <property name="defaultErrorMessage"/>
+</AUSY>

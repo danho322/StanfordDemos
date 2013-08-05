@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9255A327155DF37300477AC2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9255A326155DF37300477AC2 /* AudioToolbox.framework */; };
+		9255A332155E4A2F00477AC2 /* problem0.m in Sources */ = {isa = PBXBuildFile; fileRef = 9255A331155E4A2F00477AC2 /* problem0.m */; };
+		D400E16B154F92E4007E57F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D400E16A154F92E4007E57F1 /* UIKit.framework */; };
+		D400E16D154F92E4007E57F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D400E16C154F92E4007E57F1 /* Foundation.framework */; };
+		D400E16F154F92E4007E57F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D400E16E154F92E4007E57F1 /* CoreGraphics.framework */; };
+		D400E175154F92E4007E57F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D400E173154F92E4007E57F1 /* InfoPlist.strings */; };
+		D400E178154F92E4007E57F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D400E177154F92E4007E57F1 /* main.m */; };
+		D400E17B154F92E4007E57F1 /* ProtractorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D400E17A154F92E4007E57F1 /* ProtractorAppDelegate.m */; };
+		D400E181154F92E4007E57F1 /* ProtractorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D400E180154F92E4007E57F1 /* ProtractorViewController.m */; };
+		D400E1A6154F939F007E57F1 /* ProblemClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D400E1A5154F939F007E57F1 /* ProblemClass.m */; };
+		D400E216154F9A34007E57F1 /* Problem1.m in Sources */ = {isa = PBXBuildFile; fileRef = D400E215154F9A34007E57F1 /* Problem1.m */; };
+		D434628A15521A6500CF5DA6 /* Problem2.m in Sources */ = {isa = PBXBuildFile; fileRef = D434628915521A6500CF5DA6 /* Problem2.m */; };
+		D4DF9BFA157C72A5006FBAE3 /* Correct4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4DF9BF7157C72A5006FBAE3 /* Correct4.mp3 */; };
+		D4DF9BFB157C72A5006FBAE3 /* Incorrect4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4DF9BF8157C72A5006FBAE3 /* Incorrect4.mp3 */; };
+		D4DF9BFC157C72A5006FBAE3 /* K7ipadicon3.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DF9BF9157C72A5006FBAE3 /* K7ipadicon3.png */; };
+		D4EF2D5B1590385E000E755B /* protractor.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF2D5A1590385E000E755B /* protractor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9255A326155DF37300477AC2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
+		9255A330155E49FE00477AC2 /* problem0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = problem0.h; sourceTree = "<group>"; };
+		9255A331155E4A2F00477AC2 /* problem0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = problem0.m; sourceTree = "<group>"; };
+		D400E166154F92E4007E57F1 /* Protractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D400E16A154F92E4007E57F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D400E16C154F92E4007E57F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D400E16E154F92E4007E57F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D400E172154F92E4007E57F1 /* Protractor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Protractor-Info.plist"; sourceTree = "<group>"; };
+		D400E174154F92E4007E57F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D400E176154F92E4007E57F1 /* Protractor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Protractor-Prefix.pch"; sourceTree = "<group>"; };
+		D400E177154F92E4007E57F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D400E179154F92E4007E57F1 /* ProtractorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtractorAppDelegate.h; sourceTree = "<group>"; };
+		D400E17A154F92E4007E57F1 /* ProtractorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtractorAppDelegate.m; sourceTree = "<group>"; };
+		D400E17F154F92E4007E57F1 /* ProtractorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtractorViewController.h; sourceTree = "<group>"; };
+		D400E180154F92E4007E57F1 /* ProtractorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtractorViewController.m; sourceTree = "<group>"; };
+		D400E192154F92E4007E57F1 /* ProtractorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtractorTests-Info.plist"; sourceTree = "<group>"; };
+		D400E194154F92E4007E57F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D400E196154F92E4007E57F1 /* ProtractorTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProtractorTests-Prefix.pch"; sourceTree = "<group>"; };
+		D400E1A4154F939F007E57F1 /* ProblemClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemClass.h; sourceTree = "<group>"; };
+		D400E1A5154F939F007E57F1 /* ProblemClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemClass.m; sourceTree = "<group>"; };
+		D400E214154F9A34007E57F1 /* Problem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem1.h; sourceTree = "<group>"; };
+		D400E215154F9A34007E57F1 /* Problem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem1.m; sourceTree = "<group>"; };
+		D434628815521A6500CF5DA6 /* Problem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem2.h; sourceTree = "<group>"; };
+		D434628915521A6500CF5DA6 /* Problem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem2.m; sourceTree = "<group>"; };
+		D4DF9BF7157C72A5006FBAE3 /* Correct4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Correct4.mp3; sourceTree = "<group>"; };
+		D4DF9BF8157C72A5006FBAE3 /* Incorrect4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Incorrect4.mp3; sourceTree = "<group>"; };
+		D4DF9BF9157C72A5006FBAE3 /* K7ipadicon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = K7ipadicon3.png; sourceTree = "<group>"; };
+		D4EF2D5A1590385E000E755B /* protractor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = protractor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D400E163154F92E4007E57F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D400E16B154F92E4007E57F1 /* UIKit.framework in Frameworks */,
+				D400E16D154F92E4007E57F1 /* Foundation.framework in Frameworks */,
+				D400E16F154F92E4007E57F1 /* CoreGraphics.framework in Frameworks */,
+				9255A327155DF37300477AC2 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D400E15B154F92E4007E57F1 = {
+			isa = PBXGroup;
+			children = (
+				D400E170154F92E4007E57F1 /* Protractor */,
+				D400E169154F92E4007E57F1 /* Frameworks */,
+				D400E167154F92E4007E57F1 /* Products */,
+				D400E211154F993D007E57F1 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		D400E167154F92E4007E57F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D400E166154F92E4007E57F1 /* Protractor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D400E169154F92E4007E57F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9255A326155DF37300477AC2 /* AudioToolbox.framework */,
+				D400E16A154F92E4007E57F1 /* UIKit.framework */,
+				D400E16C154F92E4007E57F1 /* Foundation.framework */,
+				D400E16E154F92E4007E57F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D400E170154F92E4007E57F1 /* Protractor */ = {
+			isa = PBXGroup;
+			children = (
+				D400E179154F92E4007E57F1 /* ProtractorAppDelegate.h */,
+				D400E17A154F92E4007E57F1 /* ProtractorAppDelegate.m */,
+				D400E17F154F92E4007E57F1 /* ProtractorViewController.h */,
+				D400E180154F92E4007E57F1 /* ProtractorViewController.m */,
+				D400E171154F92E4007E57F1 /* Supporting Files */,
+				D400E1A4154F939F007E57F1 /* ProblemClass.h */,
+				D400E1A5154F939F007E57F1 /* ProblemClass.m */,
+				9255A330155E49FE00477AC2 /* problem0.h */,
+				9255A331155E4A2F00477AC2 /* problem0.m */,
+				D400E214154F9A34007E57F1 /* Problem1.h */,
+				D400E215154F9A34007E57F1 /* Problem1.m */,
+				D434628815521A6500CF5DA6 /* Problem2.h */,
+				D434628915521A6500CF5DA6 /* Problem2.m */,
+			);
+			path = Protractor;
+			sourceTree = "<group>";
+		};
+		D400E171154F92E4007E57F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D400E172154F92E4007E57F1 /* Protractor-Info.plist */,
+				D400E173154F92E4007E57F1 /* InfoPlist.strings */,
+				D4DF9BF7157C72A5006FBAE3 /* Correct4.mp3 */,
+				D4DF9BF8157C72A5006FBAE3 /* Incorrect4.mp3 */,
+				D4DF9BF9157C72A5006FBAE3 /* K7ipadicon3.png */,
+				D400E176154F92E4007E57F1 /* Protractor-Prefix.pch */,
+				D400E177154F92E4007E57F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D400E191154F92E4007E57F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4EF2D5A1590385E000E755B /* protractor.png */,
+				D400E192154F92E4007E57F1 /* ProtractorTests-Info.plist */,
+				D400E193154F92E4007E57F1 /* InfoPlist.strings */,
+				D400E196154F92E4007E57F1 /* ProtractorTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ProtractorTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		D400E211154F993D007E57F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D400E191154F92E4007E57F1 /* Supporting Files */,
+			);
+			name = Resources;
+			path = Protractor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D400E165154F92E4007E57F1 /* Protractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D400E19D154F92E4007E57F1 /* Build configuration list for PBXNativeTarget "Protractor" */;
+			buildPhases = (
+				D400E162154F92E4007E57F1 /* Sources */,
+				D400E163154F92E4007E57F1 /* Frameworks */,
+				D400E164154F92E4007E57F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protractor;
+			productName = Protractor;
+			productReference = D400E166154F92E4007E57F1 /* Protractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D400E15D154F92E4007E57F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = D400E160154F92E4007E57F1 /* Build configuration list for PBXProject "Protractor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D400E15B154F92E4007E57F1;
+			productRefGroup = D400E167154F92E4007E57F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D400E165154F92E4007E57F1 /* Protractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D400E164154F92E4007E57F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D400E175154F92E4007E57F1 /* InfoPlist.strings in Resources */,
+				D4DF9BFA157C72A5006FBAE3 /* Correct4.mp3 in Resources */,
+				D4DF9BFB157C72A5006FBAE3 /* Incorrect4.mp3 in Resources */,
+				D4DF9BFC157C72A5006FBAE3 /* K7ipadicon3.png in Resources */,
+				D4EF2D5B1590385E000E755B /* protractor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D400E162154F92E4007E57F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D400E178154F92E4007E57F1 /* main.m in Sources */,
+				D400E17B154F92E4007E57F1 /* ProtractorAppDelegate.m in Sources */,
+				D400E181154F92E4007E57F1 /* ProtractorViewController.m in Sources */,
+				D400E1A6154F939F007E57F1 /* ProblemClass.m in Sources */,
+				D400E216154F9A34007E57F1 /* Problem1.m in Sources */,
+				D434628A15521A6500CF5DA6 /* Problem2.m in Sources */,
+				9255A332155E4A2F00477AC2 /* problem0.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D400E173154F92E4007E57F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D400E174154F92E4007E57F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D400E193154F92E4007E57F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D400E194154F92E4007E57F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D400E19B154F92E4007E57F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D400E19C154F92E4007E57F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D400E19E154F92E4007E57F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Protractor/Protractor-Prefix.pch";
+				INFOPLIST_FILE = "Protractor/Protractor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/FinnishHyphenation.proofingtool/Contents/SharedSupport\"",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/FinnishSpeller.proofingtool/Contents/SharedSupport\"",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/FinnishThesaurus.proofingtool/Contents/SharedSupport\"",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/SwedishGrammar.proofingtool/Contents/SharedSupport\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D400E19F154F92E4007E57F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Protractor/Protractor-Prefix.pch";
+				INFOPLIST_FILE = "Protractor/Protractor-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/FinnishHyphenation.proofingtool/Contents/SharedSupport\"",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/FinnishSpeller.proofingtool/Contents/SharedSupport\"",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/FinnishThesaurus.proofingtool/Contents/SharedSupport\"",
+					"\"$(SYSTEM_APPS_DIR)/Microsoft Office 2011/Office/Shared Applications/Proofing Tools/SwedishGrammar.proofingtool/Contents/SharedSupport\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D400E160154F92E4007E57F1 /* Build configuration list for PBXProject "Protractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D400E19B154F92E4007E57F1 /* Debug */,
+				D400E19C154F92E4007E57F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D400E19D154F92E4007E57F1 /* Build configuration list for PBXNativeTarget "Protractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D400E19E154F92E4007E57F1 /* Debug */,
+				D400E19F154F92E4007E57F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D400E15D154F92E4007E57F1 /* Project object */;
+}

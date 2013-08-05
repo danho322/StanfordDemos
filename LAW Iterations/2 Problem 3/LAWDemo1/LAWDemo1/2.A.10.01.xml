@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUSY fileid="2.A.10.01" template="id1">
+  <property name="prompt">
+    <mtext version="2" base1="14">
+      <Par>
+        <Chunk family="18,EpgySansSerif,Plain" text="Click on the noun in the sentence."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="question">
+    <mtext version="2">
+      <Par>
+        <Chunk family="24,EpgySerif,Plain" text="The"/>
+        <Chunk family="24,EpgySerif,Plain" text=" "/>
+        <Chunk family="24,EpgySerif,Plain" text="house"/>
+        <Chunk family="24,EpgySerif,Plain" text=" "/>
+        <Chunk family="24,EpgySerif,Plain" text="is"/>
+        <Chunk family="24,EpgySerif,Plain" text=" "/>
+        <Chunk family="24,EpgySerif,Plain" text="painted"/>
+        <Chunk family="24,EpgySerif,Plain" text=" "/>
+        <Chunk family="24,EpgySerif,Plain" text="bright"/>
+        <Chunk family="24,EpgySerif,Plain" text=" "/>
+        <Chunk family="24,EpgySerif,Plain" text="green"/>
+        <Chunk family="24,EpgySerif,Plain" text="."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="feedback">
+    <mtext version="2">
+      <Par>
+        <Chunk text="The noun in this sentence names a thing."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="answer" type="LOLS">
+    <datum value="house"/>
+  </property>
+  <property name="answertype" value="true"/>
+  <property name="answerType" value="true"/>
+</AUSY>

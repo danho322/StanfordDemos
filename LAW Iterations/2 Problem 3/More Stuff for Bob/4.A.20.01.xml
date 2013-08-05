@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUSY fileid="4.A.20.01" template="experiment">
+  <property name="answer" value=""/>
+  <property name="sentence">The art teacher is named John. Yesterday he visited the art museum.</property>
+  <property name="question">
+    <mtext version="2">
+      <Par>
+        <Chunk text="Who went to the art museum? Use a "/>
+        <Chunk bold="true" text="proper noun"/>
+        <Chunk text=" in your answer."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="wordlistnumber" value="4A2001"/>
+  <property name="filename" value="4A2001"/>
+  <property name="parser" value="4A20014A2001"/>
+  <property name="parserexercise" value="4.A.20.01"/>
+  <property name="defaultErrorMessage"/>
+</AUSY>

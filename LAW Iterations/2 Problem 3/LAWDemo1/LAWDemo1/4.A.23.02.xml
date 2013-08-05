@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUSY fileid="4.A.23.02" template="experiment">
+  <property name="answer" value=""/>
+  <property name="sentence">My brother Kyle visited the doctor for his asthma.</property>
+  <property name="question">
+    <mtext version="2">
+      <Par>
+        <Chunk text="Who went to the doctor? Use a "/>
+        <Chunk bold="true" text="proper noun"/>
+        <Chunk text=" in your answer."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="wordlistnumber" value="4A2302"/>
+  <property name="filename" value="4A2302"/>
+  <property name="parser" value="4A23024A2302"/>
+  <property name="parserexercise" value="4.A.23.02"/>
+  <property name="defaultErrorMessage"/>
+</AUSY>

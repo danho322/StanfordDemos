@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUSY fileid="6.P.50.03" template="3-2">
+  <property name="1-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="Imagine embarrassing yourself in front of your whole class."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="answer" type="LOLS">
+    <datum value="1"/>
+  </property>
+  <property name="2-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="I made a mess during a class demonstration."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="2-message">
+    <mtext version="2">
+      <Par>
+        <Chunk family="14,EpgySansSerif,Plain" text="This is an uninteresting way to begin the paragraph. The lead sentence should tell the reader the topic of the paragraph. It should also include the main idea, or give a hint about what it is."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="3-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="Cheesecake is one of my favorite desserts, especially when I get to make it myself!"/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="3-message">
+    <mtext version="2">
+      <Par>
+        <Chunk family="14,EpgySansSerif,Plain" text="This sentence does not relate well to the rest of the paragraph. The lead sentence should tell the reader the topic of the paragraph. It should also include the main idea, or give a hint about what it is."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="4-choice">
+    <mtext version="2" base1="17">
+      <Par lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="To make cheesecake, you will need cream cheese, sugar, and eggs."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="4-message">
+    <mtext version="2">
+      <Par>
+        <Chunk family="14,EpgySansSerif,Plain" text="This sentence does not introduce the story well. The lead sentence should tell the reader the topic of the paragraph. It should also include the main idea, or give a hint about what it is."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="count" value="4"/>
+  <property name="question">
+    <mtext version="2" base1="17">
+      <Par LineSpacing="1.0" lh="25">
+        <Chunk family="18,EpgySerif,Plain" text="          "/>
+        <Chunk foreground="FFB8CFE5" family="18,EpgySerif,Plain" text="_"/>
+        <Chunk family="18,EpgySerif,Plain" text=" I had to deliver a how-to demonstration as a school project. So, I was showing my classmates how to make a delicious cheesecake. First, I measured out all the dry ingredients and put them in a mixing bowl. Next, I added other ingredients, including cream cheese and eggs. Then, I plugged the electric beater into the wall, but one of the parts was missing. As soon as I turned on the beater, globs of cheesecake batter soared through the air. Batter landed on desks, classmates, and even my teacher's face! Everyone in the class began to laugh, including my teacher. Ever since that day my friends have called me &quot;Batter Boy&quot;."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="instruction">
+    <mtext version="2">
+      <Par>
+        <Chunk text="Add the best "/>
+        <Chunk foreground="FFFF0000" bold="true" text="lead sentence"/>
+        <Chunk text=" into the blank."/>
+      </Par>
+    </mtext>
+  </property>
+  <property name="defaultMessage"/>
+</AUSY>
